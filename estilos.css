@@ -1,0 +1,65 @@
+body
+{
+  /*background: #7DFF33;
+  background: linear-gradient(to top, #33FFB5, rgb(255, 196, 51), blue);*/
+  background: linear-gradient(45deg, #33FFB5, rgb(255, 196, 51), blue);
+  background-repeat: no-repeat;
+  height: 400vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h2
+{
+  color: #33FFC4;
+  font-size: 70px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+}
+
+img
+{
+  width: 450px;
+  border: 10px solid green;
+  border-radius: 50%;
+}
+
+form
+{
+  display: flex;
+  flex-direction: column;
+  width: 250;
+  align-items: flex-start;
+}
+
+#name
+{
+  width: 100%;
+}
+
+#email
+{
+  width: 100%;
+}
+
+#message
+{
+  width: 100%;
+}
+
+#option
+{
+  width: 100%;
+  margin: auto;
+}
+
+#BotonFormulario
+{
+  margin: auto;
+  padding: 10px;
+  background: green;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
